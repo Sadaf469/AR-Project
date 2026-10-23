@@ -1,0 +1,243 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.2.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 435022,
+      "max": [
+        1.4433341026306152,
+        1.450559139251709,
+        -4.249232292175293
+      ],
+      "min": [
+        -0.805350124835968,
+        -1.049801230430603,
+        -6.183053493499756
+      ],
+      "bufferView": 0,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 435022,
+      "bufferView": 0,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 435022,
+      "bufferView": 0,
+      "byteOffset": 24
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 435022,
+      "bufferView": 0,
+      "byteOffset": 32
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5125,
+      "count": 435732,
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 90,
+      "bufferView": 1,
+      "byteOffset": 1742928
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 32,
+      "max": [
+        1.8373289108276367,
+        -1.9704242944717407,
+        0.6055786609649658
+      ],
+      "min": [
+        -1.8373289108276367,
+        -1.9704242944717407,
+        -0.6055786609649658
+      ],
+      "bufferView": 2,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 32,
+      "bufferView": 2,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 32,
+      "bufferView": 2,
+      "byteOffset": 24
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 19140968,
+      "byteStride": 44,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 19140968,
+      "byteLength": 1743108,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 20884076,
+      "byteLength": 1024,
+      "byteStride": 32,
+      "target": 34962
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "source": 0,
+      "sampler": 0
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/jpeg",
+      "uri": "baseColor.jpg"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "buffer.bin",
+      "byteLength": 20885100
+    }
+  ],
+  "materials": [
+    {
+      "name": "Material_0",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0,
+        "baseColorTexture": {
+          "index": 0
+        }
+      }
+    },
+    {
+      "pbrMetallicRoughness": {}
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "COLOR_0": 3
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 4
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8
+          },
+          "mode": 4,
+          "material": 1,
+          "indices": 5
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Scene",
+      "children": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Mesh_0",
+      "extras": {
+        "name": "Mesh_0"
+      },
+      "translation": [
+        -2.868995189666748,
+        2.0804691314697266,
+        4.105563163757324
+      ],
+      "rotation": [
+        -0.11496394209530786,
+        -0.27107075028656125,
+        -0.04006116497307655,
+        0.9548293268716037
+      ],
+      "mesh": 0
+    },
+    {
+      "name": "Cylinder",
+      "extras": {
+        "name": "Cylinder"
+      },
+      "translation": [
+        0.0015148147940635681,
+        -1.9769999980926514,
+        0.0586421936750412
+      ],
+      "rotation": [
+        0,
+        0,
+        0.9999999999999991,
+        -4.37113882867378e-8
+      ],
+      "scale": [
+        0.7676198482513457,
+        1.0000000000000038,
+        1.4221961498260498
+      ],
+      "mesh": 1
+    }
+  ],
+  "scenes": [
+    {
+      "name": "AuxScene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "scene": 0
+}
